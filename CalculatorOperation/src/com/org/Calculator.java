@@ -15,6 +15,16 @@ public class Calculator {
 
 		}
 
+	    public void div(){
+		int p,q,r;
+		p=25;
+		q=5;
+		r=p/q;
+
+		System.out.println(r);
+
+		}
+
 		/*
 		 * public static void main(String args[]){ Calculator cal = new Calculator();
 		 * cal.add(); cal.sub(); cal.mul(); cal.div(); }
