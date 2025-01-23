@@ -31,7 +31,13 @@ public class Calculator {
 			System.out.println(v*w);
 			}
 		
-	
+	public static void main(String args[]){
+          Calculator a = new  Calculator();
+          a.add();
+          a.sub();
+          a.mul();
+          a.div();
+		}
 		
 }
 
